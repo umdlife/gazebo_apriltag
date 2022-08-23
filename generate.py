@@ -43,7 +43,7 @@ def main():
 
 	generator = Generator()
 	for i in range(16):
-		generator.generate('apriltag-imgs/tag36h11', 'tag36_11_%05d' % i, tag_size)
+		generator.generate('apriltag-imgs/tagCustom48h12', 'tag48_12_%05d' % i, tag_size)
 
 
 if __name__ == '__main__':
